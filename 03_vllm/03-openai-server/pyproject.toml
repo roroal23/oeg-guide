@@ -1,0 +1,12 @@
+[project]
+name = "openai-server"
+version = "0.1.0"
+description = "vllm serve con API compatible con OpenAI y tres clientes: requests, AsyncOpenAI y LiteLLM"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "litellm>=1.83.0",
+    "openai>=2.34.0",
+    "requests>=2.33.1",
+    "vllm==0.26.0",
+]

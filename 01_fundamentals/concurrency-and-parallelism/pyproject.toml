@@ -1,0 +1,7 @@
+[project]
+name = "concurrency-and-parallelism"
+version = "0.1.0"
+description = "Secuencial vs hilos vs procesos vs asyncio en un trabajo CPU-bound (el GIL en la práctica)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

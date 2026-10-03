@@ -1,0 +1,18 @@
+[project]
+name = "fine-tuning"
+version = "0.1.0"
+description = "Fine-tuning de BERT para análisis de sentimiento (IMDB), paso a paso y como pipeline"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+    "transformers>=5.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

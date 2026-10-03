@@ -1,0 +1,18 @@
+[project]
+name = "metrics"
+version = "0.1.0"
+description = "BLEU y ROUGE paso a paso con nltk, rouge_score y evaluate"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "absl-py>=2.5.0",
+    "evaluate>=0.4.6",
+    "nltk>=3.10.3",
+    "rouge-score>=0.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.1",
+]

@@ -1,0 +1,20 @@
+# Entorno de la raíz: solo herramientas de desarrollo (cada proyecto tiene su propio pyproject.toml).
+[project]
+name = "oeg-guide"
+version = "0.1.0"
+description = "Apuntes y proyectos del OEG: Magerit, uv, Ollama, RAG y vLLM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.17",
+]
+
+[tool.ruff]
+extend-exclude = ["*.ipynb"]
+
+[tool.ruff.lint]
+# Solo errores reales (sintaxis, nombres no definidos, imports sin usar...), no estilo
+select = ["F", "E9"]

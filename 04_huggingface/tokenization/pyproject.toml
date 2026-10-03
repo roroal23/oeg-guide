@@ -1,0 +1,16 @@
+[project]
+name = "tokenization"
+version = "0.1.0"
+description = "Las etapas de un tokenizador de Hugging Face: normalización, pre-tokenización, modelo y post-procesado"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tokenizers>=0.23.2",
+    "transformers>=5.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.1",
+]

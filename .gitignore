@@ -1,0 +1,40 @@
+# --- IDEs y editores ---
+.idea/
+.vscode/
+*.iml
+.obsidian/
+.trash/
+
+# --- Python / entornos ---
+# .python-version SÍ se versiona (lo usa uv)
+.venv/
+**/venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Secretos ---
+.env
+.env.*
+!.env.example
+*token.txt
+secrets.*
+
+# --- Datos, modelos y pesos ---
+**/data/
+*.csv
+*.parquet
+*.pdf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.safetensors
+
+# --- Salidas de experimentos ---
+**/logs/*
+!**/logs/.gitkeep
+**/outputs/
+wandb/

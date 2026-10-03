@@ -1,0 +1,11 @@
+[project]
+name = "benchmark-wandb"
+description = "Benchmark de vLLM offline sobre EsCoLA con varios modelos Qwen2.5, registrado en Weights & Biases"
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.11, <3.12"
+dependencies = [
+    "vllm==0.26.0",
+    "wandb",
+    "datasets"
+]

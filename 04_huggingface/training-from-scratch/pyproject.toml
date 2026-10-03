@@ -1,0 +1,18 @@
+[project]
+name = "training-from-scratch"
+version = "0.1.0"
+description = "Entrenar desde cero un modelo de lenguaje enmascarado (RoBERTa) en esperanto"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.0.1",
+    "tokenizers>=0.23.2",
+    "torch>=2.14.1",
+    "transformers>=5.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

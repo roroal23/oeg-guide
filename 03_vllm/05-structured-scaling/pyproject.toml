@@ -1,0 +1,15 @@
+[project]
+name = "structured-scaling"
+version = "0.1.0"
+description = "Benchmark asíncrono contra vLLM con configuración YAML (Pydantic), writer productor-consumidor y métricas en W&B"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "datasets>=4.8.5",
+    "httpx>=0.28.1",
+    "litellm>=1.83.0",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "vllm==0.26.0",
+    "wandb>=0.30.0",
+]

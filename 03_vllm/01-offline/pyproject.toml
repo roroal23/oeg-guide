@@ -1,0 +1,9 @@
+[project]
+name = "vllm-offline"
+version = "0.1.0"
+description = "vLLM en modo offline (LLM.generate): estructura de las salidas y parámetros de muestreo"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "vllm==0.26.0",
+]

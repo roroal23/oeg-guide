@@ -1,0 +1,9 @@
+[project]
+name = "litellm-mock"
+version = "0.1.0"
+description = "Estructura de las respuestas de LiteLLM (con y sin streaming) usando mock_response, sin API key"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm==1.82.6",
+]
