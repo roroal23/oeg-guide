@@ -32,6 +32,8 @@ No es un curso cerrado, sino exploraciones reales, limpias y documentadas. Cada 
 
 Además, [docs/05-evaluation-datasets.md](docs/05-evaluation-datasets.md) reúne datasets y métricas para evaluar LLMs en español (Shuyi).
 
+Si trabajas en el JupyterHub del AIInnovation, lee [docs/06-jupyterhub.md](docs/06-jupyterhub.md): permisos del home, git, uv (con tu propia versión de Python) y cómo subir carpetas grandes.
+
 ## Primeros pasos con uv
 
 Cada carpeta de proyecto es un proyecto [uv](docs/02-uv.md) independiente, con su `pyproject.toml`, su `uv.lock` y su `.python-version`:
@@ -49,7 +51,7 @@ En Magerit, desde la carpeta de un proyecto de [`03_vllm`](03_vllm): `sbatch pre
 ## Estructura
 
 ```
-docs/            Apuntes: Magerit, uv, flujo de trabajo, vLLM, datasets; til/ para trucos cortos
+docs/            Apuntes: Magerit, uv, flujo de trabajo, vLLM, datasets, JupyterHub; til/ para trucos cortos
 templates/      Scripts de SLURM, init_project.sh y una plantilla de README
 01_fundamentals/  02_ollama-and-rag/  03_vllm/  04_huggingface/  05_evaluation/
 ```
